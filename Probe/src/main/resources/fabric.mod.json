@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "probe",
+	"version": "${version}",
+	"name": "Probe",
+	"description": "Debug mod for Minecraft to see performance, memory and other debug values.",
+	"authors": [
+		"Jamster"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/probe/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.jamster.probe.Probe"
+		],
+		"client": [
+			"com.jamster.client.ProbeClient"
+		]
+	},
+	"mixins": [
+		"probe.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

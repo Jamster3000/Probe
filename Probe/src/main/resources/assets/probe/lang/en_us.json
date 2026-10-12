@@ -1,0 +1,14 @@
+{
+  "probe.tooltip.fps": "Average Frames Per Second. Higher is better.",
+  "probe.tooltip.1pct": "1% Low FPS. Tracks frame drops and micro-stutters.",
+  "probe.tooltip.mspt": "Milliseconds Per Tick. Must be under 50ms to maintain 20 TPS.",
+  "probe.tooltip.tps": "Ticks Per Second. Server update rate. 20 is optimal.",
+  "probe.tooltip.memory": "Peak RAM usage during the benchmark session.",
+  "probe.tooltip.gc_cycles": "Garbage Collection cycles. High cycles mean heavy memory churn.",
+  "probe.tooltip.gc_time": "Time the game froze to clean up memory (stutters).",
+  "probe.tooltip.entity_render": "Time spent drawing entities on the screen.",
+  "probe.tooltip.gui_render": "Time spent drawing the HUD and user interface.",
+  "probe.tooltip.alloc_rate": "Memory Allocation Rate. How fast the game generates garbage (MB/s).",
+  "key.probe.open_benchmark": "Open Benchmark Menu",
+  "key.category.probe.category": "Probe"
+}

@@ -1,0 +1,52 @@
+{
+  "Avg FPS": {
+    "green": 60.0,
+    "yellow": 30.0,
+    "higherIsBetter": true
+  },
+  "1% Low FPS": {
+    "green": 60.0,
+    "yellow": 30.0,
+    "higherIsBetter": true
+  },
+  "Avg MSPT": {
+    "green": 40.0,
+    "yellow": 50.0,
+    "higherIsBetter": false
+  },
+  "Avg TPS": {
+    "green": 19.5,
+    "yellow": 15.0,
+    "higherIsBetter": true
+  },
+  "GC Cycles": {
+    "green": 5.0,
+    "yellow": 20.0,
+    "higherIsBetter": false
+  },
+  "GC Time": {
+    "green": 5.0,
+    "yellow": 20.0,
+    "higherIsBetter": false
+  },
+  "Entity Rndr": {
+    "green": 5.0,
+    "yellow": 15.0,
+    "higherIsBetter": false
+  },
+  "GUI Rndr": {
+    "green": 5.0,
+    "yellow": 15.0,
+    "higherIsBetter": false
+  },
+  "Avg Alloc": {
+    "green": 50.0,
+    "yellow": 150.0,
+    "higherIsBetter": false
+  },
+  "Peak Alloc": {
+    "green": 50.0,
+    "yellow": 150.0,
+    "higherIsBetter": false
+  }
+}
